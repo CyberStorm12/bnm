@@ -4,9 +4,8 @@
   "description": "Production-ready multivendor ecommerce marketplace for Bangladesh",
   "private": true,
   "scripts": {
-    "postinstall": "prisma generate",
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write .",
