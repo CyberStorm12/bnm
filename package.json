@@ -18,7 +18,7 @@
     "type-check": "tsc --noEmit"
   },
   "engines": {
-    "node": ">=18.18"
+    "node": "20.x"
   },
   "dependencies": {
     "next": "^14.0.0",
